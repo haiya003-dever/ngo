@@ -107,13 +107,13 @@ body {
   }
   #visual .txt h2:first-child {
     color: purple;
-    font-size: 50px;
+    font-size: 40px;
     display: none;
   }
 
   #visual .txt h2:nth-of-type(2) {
     color: purple;
-    font-size: 50px;
+    font-size: 40px;
     display: none;
   }
 
@@ -190,7 +190,7 @@ body {
   #con1 h3,
   #con2 h3,
   #con3 h3 {
-    font-size: 30px;
+    font-size: 25px;
     color: purple;
     margin: 70px 0px;
     transform: translatey(50px);
@@ -202,7 +202,7 @@ body {
   #con1 > p,
   #con2 .txt04 p,
   #con3 > p {
-    font-size: 40px;
+    font-size: 30px;
     font-weight: bold;
     color: #333;
     margin-bottom: 50px;
@@ -470,7 +470,7 @@ body {
     display: flex;
     justify-content: space-between;
     height: 150px;
-    font-size: 25px;
+    font-size: 20px;
     border: 1px solid #ccc;
     border-radius: 8px;
     align-items: center;
