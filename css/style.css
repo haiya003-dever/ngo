@@ -266,9 +266,12 @@ body {
     /* display: flex; */
     width: 90%;
     background: url(../img/img_sector2_datacounter.png);
-    height: 700px;
-
+    height: 500px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
     margin: 0px auto;
+    justify-content: center;
   }
   #con2 .txt04 p {
     transform: translateY(150px);
@@ -289,7 +292,7 @@ body {
   }
   #con2 li {
     color: white;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: bold;
     width: 90%;
     display: flex;
@@ -304,12 +307,9 @@ body {
   #con2 li .number,
   #con2 li .number2,
   #con2 li .number3 {
-    font-size: 150px;
+    font-size: 80px;
   }
-  span {
-    font-size: 30px;
-    color: white;
-  }
+
   /*con3*/
 
   #con3 .ppl li {
@@ -1154,8 +1154,8 @@ body {
   header .menu {
     display: flex;
     justify-content: center;
-    gap: 100px;
-    font-size: 23px;
+    gap: 50px;
+    font-size: 20px;
     font-weight: bold;
     height: 100px;
     line-height: 100px;
@@ -1194,7 +1194,9 @@ body {
   header .hide {
     display: none;
   }
-
+  h1 {
+    font-size: 25px;
+  }
   /*visual*/
   #visual {
     position: relative;
