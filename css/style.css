@@ -92,6 +92,9 @@ body {
     font-size: 20px;
     margin-top: 20px;
   }
+  h1 {
+    font-size: 25px;
+  }
   /*visual*/
   #visual {
     position: relative;
@@ -104,13 +107,13 @@ body {
   }
   #visual .txt h2:first-child {
     color: purple;
-    font-size: 60px;
+    font-size: 50px;
     display: none;
   }
 
   #visual .txt h2:nth-of-type(2) {
     color: purple;
-    font-size: 60px;
+    font-size: 50px;
     display: none;
   }
 
@@ -199,7 +202,7 @@ body {
   #con1 > p,
   #con2 .txt04 p,
   #con3 > p {
-    font-size: 50px;
+    font-size: 40px;
     font-weight: bold;
     color: #333;
     margin-bottom: 50px;
@@ -220,7 +223,7 @@ body {
     justify-content: space-between;
   }
   #con1 li h4 {
-    font-size: 40px;
+    font-size: 30px;
     color: #333;
     letter-spacing: -5px;
   }
