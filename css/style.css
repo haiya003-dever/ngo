@@ -27,7 +27,7 @@ body {
     padding-left: 20px;
     z-index: 10;
     height: 100px;
-    gap: 150px;
+    gap: 100px;
   }
   header:hover {
     color: #000000;
@@ -93,7 +93,7 @@ body {
     margin-top: 20px;
   }
   h1 {
-    font-size: 25px;
+    font-size: 20px;
   }
   /*visual*/
   #visual {
@@ -107,13 +107,13 @@ body {
   }
   #visual .txt h2:first-child {
     color: purple;
-    font-size: 40px;
+    font-size: 30px;
     display: none;
   }
 
   #visual .txt h2:nth-of-type(2) {
     color: purple;
-    font-size: 40px;
+    font-size: 30px;
     display: none;
   }
 
@@ -190,7 +190,7 @@ body {
   #con1 h3,
   #con2 h3,
   #con3 h3 {
-    font-size: 25px;
+    font-size: 20px;
     color: purple;
     margin: 70px 0px;
     transform: translatey(50px);
@@ -202,11 +202,11 @@ body {
   #con1 > p,
   #con2 .txt04 p,
   #con3 > p {
-    font-size: 30px;
+    font-size: 25px;
     font-weight: bold;
     color: #333;
     margin-bottom: 50px;
-    letter-spacing: -5px;
+    /* letter-spacing: px; */
     transform: translatey(50px);
     opacity: 0;
     transition: 1s;
@@ -223,9 +223,9 @@ body {
     justify-content: space-between;
   }
   #con1 li h4 {
-    font-size: 30px;
+    font-size: 25px;
     color: #333;
-    letter-spacing: -5px;
+    /* letter-spacing: -5px; */
   }
   #con1 li .wrap {
     font-weight: bold;
@@ -459,7 +459,7 @@ body {
     opacity: 1;
   }
   .txt02 .menu li {
-    font-size: 30px;
+    font-size: 20px;
     font-weight: bold;
     color: #ccc;
   }
@@ -502,6 +502,9 @@ body {
   }
   .list li .wrap02:hover {
     border: 1px solid purple;
+  }
+  .more {
+    font-size: 14px;
   }
   /*footer*/
   footer {
